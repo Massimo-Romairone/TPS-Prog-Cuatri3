@@ -1,0 +1,29 @@
+{
+  "tracks": [
+    {
+      "id": "1",
+      "title": "Veneno",
+      "artist": "La Renga"
+    },
+    {
+      "id": "2",
+      "title": "Arte Infernal",
+      "artist": "La Renga"
+    },
+    {
+      "id": "3",
+      "title": "A tu lado",
+      "artist": "La Renga"
+    },
+    {
+      "id": "4",
+      "title": "El cielo del desengaño",
+      "artist": "La Renga"
+    },
+    {
+      "id": "5",
+      "title": "En el baldio",
+      "artist": "La Renga"
+    }
+  ]
+}

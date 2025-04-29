@@ -1,0 +1,46 @@
+PASOS PARA PROBAR LOS METODOS EN POSTMAN
+
+Ejecutar npm run start para levantar el servidor en http://localhost:3000
+Ejecutar npm run db para levantar el archivo .json con los tracks
+
+
+Metodo: GET
+
+URL: http://localhost:3000/ayacucho/all
+(En Postman utilizar el metodo GET seguido de la URL)
+
+Metodo: GET (Buscar por ID)
+URL: http://localhost:3000/ayacucho/"id" (Reemplazar "id" por (1,2,3,4 o 5)
+(En Postman utilizar el metodo GET seguido de la URL con su respectivo ID)
+
+Metodo: POST
+
+URL: http://localhost:3000/ayacucho/crear
+(En Postman utilizar el metodo POST seguido de la URL, seleccionar "body",
+"raw", "JSON" y insertar el track que desea insertar)
+
+EJEMPLO:
+{
+  "title": "Tema Nuevo",
+  "artist": "Artista Nuevo"
+}
+
+Método: PUT
+
+URL: http://localhost:3000/ayacucho/"id" (Reemplazar "id" por el id
+que desea editar)
+(En Postman utilizar el metodo PUT seguido de la URL, seleccionar "body",
+"raw", "JSON" y insertar en el body lo que se quiera editar)
+
+EJEMPLO:
+{
+  "title": "Tema Editado",
+  "artist": "Artista Editado"
+}
+
+Método: DELETE
+
+URL: http://localhost:3000/ayacucho/"id" (Reemplazar "id" por el id
+del track que desea eliminar)
+
+
