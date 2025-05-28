@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi Primer Servidor</h1>
+
+    <button onclick="Saludar()">Saludar</button>
+    <h2 id="saludar"></h2>
+    <button onclick="Despedirse()">Despedirse</button>
+    <h2 id="despedirse"></h2>
+    <button onclick="Tiempo()">Hora</button>
+    <h2 id="tiempo"></h2>
+
+    <h2>Lista de Canciones</h2>
+    <ul id="tracks_list"></ul>
+
+    <!--GET BY ID-->
+    <h2>Buscar cliente por Id</h2>
+    <input type="number" id="getIdinput" placeholder="Ingrese ID del cliente">
+    <button id="getId">Buscar</button>
+    <p id="getResult"></p>
+
+    
+    <!--DELETE BY ID-->
+    <h2>ELIMINAR cliente por Id</h2>
+    <input type="number" id="inputDeleteId" placeholder="Ingrese ID del cliente a eliminar">
+    <button id="deleteId">Eliminar</button>
+    <p id="deleteResult"></p>
+    
+    <!--CREAR CLIENTE-->
+    <h2>Crear Cliente</h2>
+    <input type="text" id="nombre" placeholder="Nombre"><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br>
+    <input type="text" id="direccion" placeholder="Direccion"><br>
+    <input type="text" id="activo" placeholder="Activo"><br>
+    <button id="createBtn">Crear</button>
+    <p id="createResult"></p>
+
+    <!--EDITAR CLIENTE-->
+    <h2>Editar Cliente</h2>
+    <input type="text" id="updateId" placeholder="ID del Cliente"><br>
+    <input type="text" id="updateNombre" placeholder="Nombre"><br>
+    <input type="text" id="updateApellido" placeholder="Apellido"><br>
+    <input type="text" id="updateDireccion" placeholder="Direccion"><br>
+    <input type="text" id="updateActivo" placeholder="Activo"><br>
+    <button id="updateBtn">Editar</button>
+    <p id="updateResult"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>

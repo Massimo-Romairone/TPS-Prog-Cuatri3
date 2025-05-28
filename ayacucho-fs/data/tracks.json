@@ -1,0 +1,44 @@
+{
+    "tracks": [
+      {
+        "id": 1,
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "album": "A Night at the Opera",
+        "duration": 354,
+        "year": 1975
+      },
+      {
+        "id": 2,
+        "title": "Imagine",
+        "artist": "John Lennon",
+        "album": "Imagine",
+        "duration": 183,
+        "year": 1971
+      },
+      {
+        "id": 3,
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "album": "Thriller",
+        "duration": 294,
+        "year": 1982
+      },
+      {
+        "id": 4,
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "duration": 301,
+        "year": 1991
+      },
+      {
+        "id": 5,
+        "title": "Like a Rolling Stone",
+        "artist": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "duration": 369,
+        "year": 1965
+      }
+    ]
+  } 
